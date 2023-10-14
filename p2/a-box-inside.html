@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.4.1/aframe.min.js"></script>
+	
+  </head>
+  <body>
+	
+	  <a-scene>
+		<a-box id="redBox" position="0 0 -5" geometry="width: 1; height: 1; depth: 1" class="clickable" color="red"></a-box>
+		<a-sphere position="1 1 -2" geometry="radius: 0.5" class="clickable" color="blue"></a-sphere>
+		<a-box position="0 0 0" color="green"></a-box>
+		<a-entity light="type: ambient"></a-entity>
+		<a-entity light="type: directional"></a-entity>
+	  </a-scene>
+	
+  </body>
+</html>
